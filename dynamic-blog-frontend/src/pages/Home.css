@@ -1,0 +1,118 @@
+.home-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background: linear-gradient(rgba(137, 77, 131, 0.8), rgba(0, 0, 0, 0.8)), #5e2158;
+  font-family: 'Arial', sans-serif;
+}
+
+.post-preview {
+  background-color: #a2c1c1;
+  border: 1px solid #b3cfcd;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-preview:hover {
+  transform: translateY(-40px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.post-image {
+  max-width: 200%; 
+  height: auto; 
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 10px; 
+  max-height: 150px; 
+}
+
+.post-title {
+  font-size: 1.5rem;
+  margin: 15px 0 10px;
+}
+
+.post-author,
+.post-content {
+  font-weight: bold; 
+  margin-bottom: 10px;
+}
+
+.read-more-link {
+  font-size: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.read-more-link:hover {
+  text-decoration: underline;
+}
+
+/* Add additional styles as needed */
+
+
+.share-buttons {
+  display: flex;
+  justify-content: right;
+  margin-top: 50px;
+  gap: 20px;
+  
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: hsl(294, 49%, 66%);
+  color: #ead3d3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.social-button:hover {
+  background-color: #0056b3;
+}
+
+.social-button svg {
+  margin-right: 5px;
+}
+
+.button-label {
+  display: none;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+.home-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #39224e; 
+  
+  font-weight: bold;
+  font-size: 1.5rem; 
+  margin-bottom: 20px;
+}

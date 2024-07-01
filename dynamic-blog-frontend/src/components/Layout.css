@@ -1,0 +1,33 @@
+
+
+header {
+  background-color: #5c4b5c; 
+  padding: 10px 20px; 
+}
+
+footer {
+  background-color: #333; 
+  color: #e6b6d8; 
+  text-align: center; 
+}
+
+.home-link:hover {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem; 
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.home-icon {
+  
+  margin-right: 10px;
+}
+
+ul {
+  padding: 0; 
+}
